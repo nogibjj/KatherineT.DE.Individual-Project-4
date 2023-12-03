@@ -1,14 +1,15 @@
-import os
+# Basic Website Template
 from flask import Flask, render_template
+
 app = Flask(__name__)
 
-@app.route("/")
-def main():
+@app.route('/')
+def home():
     return render_template('home.html', title='Home')
 
 @app.route('/index')
-def hello():
+def index():
     return render_template('index.html')
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=9000)
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=9000)
