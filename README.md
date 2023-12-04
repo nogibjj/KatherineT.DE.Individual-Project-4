@@ -1,6 +1,9 @@
 # Individual Project 4
 This project builds a publicly accessible auto-scaling container using Azure App Services and Flask. I designed a web app that returns welcoming messages and the current UTC time as a clock converter. DockerHub is used to build a container. This app runs at the public URL provided by Azure.
 
+## Demo Video 
+
+
 ## Preparation
 1. Set up environment. Modify the `requirement.txt` file to install `flask` package in GitHub CodeSpace.
 2. Log into Azure and DockerHub
