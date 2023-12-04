@@ -1,33 +1,11 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
+# Individual Project 4
+This project builds a publicly accessible auto-scaling container using Azure App Services and Flask. I designed a web app that returns welcoming messages and the current UTC time as a clock converter. DockerHub is used to build a container. This app runs at the public URL provided by Azure.
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+## Steps
+1. Set up environment. Change the `requirement.txt` file to install `flask` package in GitHub CodeSpace.
+2. Build a flask app. Mine is in `app.py`. This app utilizes a HTML template in templates folder.
+```
 
-
-
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
-
-Things included are:
-
-* `Makefile`
-
-* `Pytest`
-
-* `pandas`
-
-* `Ruff`:  
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
 
 ## References
 
