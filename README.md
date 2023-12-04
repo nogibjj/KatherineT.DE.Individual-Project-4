@@ -1,5 +1,8 @@
 # Individual Project 4
-This project builds a publicly accessible auto-scaling container using Azure App Services and Flask. I designed a web app that returns welcoming messages and the current UTC time as a world clock converter. DockerHub is used to build a container. This app runs at the public URL provided by Azure.
+This project builds a publicly accessible auto-scaling container using Azure App Services and Flask. I designed a Flask app that returns welcoming messages and the current UTC time as a world clock converter. I hosted my functioning container on DockerHub and successfully deployed my container via Azure Web App to a public endpoint. 
+
+## Public URL
+utcwebapp.azurewebsites.net
 
 ## Demo Video 
 
@@ -21,7 +24,7 @@ Your terminal should look like this.
 <img width="885" alt="Screenshot 2023-12-03 at 20 09 40" src="https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/acc6adb5-8296-4298-ac52-9c330187c212">
 
 
-4. Use the following command to log into DockerHub, build container and push
+4. Use the following command to log into DockerHub, build functioning container and push to DockerHub
 ```
 docker login --username
 docker build -t username/reponame .
@@ -37,17 +40,14 @@ Your terminal should look like this.
 
 ![Screenshot 2023-12-03 at 20 38 32](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/0acf19dc-2829-4af0-88c3-70871f83a568)
 
-6. Set up a web app on Azure. Select Docker Container and insert your DockerHub image and tag when creating the web app.
-7. After deployment, go to configuration to add "WEBSITES_PORT" with a value of 9000.
+6. Deploy the container via Azure Web App to a public endpoint. Set up a web app on Azure. Select Docker Container and insert your DockerHub image and tag when creating the web app.
+7. After deployment, go to configuration to add "WEBSITES_PORT" with a value of 9000.  
     
 ![Screenshot 2023-12-03 at 20 52 31](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/8d26a470-34eb-439c-9e20-e49b2a86fcc0)
 
 8. Browse your web app from the domain! This is my web app.
 
 ![Screenshot 2023-12-03 at 20 53 58](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/53fb0286-b810-4973-a165-535700555e9a)
-
-## Public URL
-utcwebapp.azurewebsites.net
 
 ## References
 1. https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?tabs=azure-portal&pivots=container-linux
