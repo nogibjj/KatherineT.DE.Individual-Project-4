@@ -5,7 +5,7 @@ This project builds a publicly accessible auto-scaling container using Azure App
 utcwebapp.azurewebsites.net
 
 ## Demo Video 
-
+https://youtu.be/VB4zkuJvGCQ
 
 ## Preparation
 1. Set up environment. Modify the `requirement.txt` file to install `flask` package in GitHub CodeSpace.
