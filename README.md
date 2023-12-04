@@ -28,12 +28,23 @@ Your terminal should look like this.
 <img width="830" alt="Screenshot 2023-12-03 at 20 10 06" src="https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/bed20af9-893f-49c8-96a5-bac4879bcab5">
 
 6. Check the repo on DockerHub. You would see a tag created like this.
+7. 
 ![Screenshot 2023-12-03 at 20 38 32](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/0acf19dc-2829-4af0-88c3-70871f83a568)
 
+8. Set up a web app on Azure. Select Docker Container and insert your DockerHub image and tag when creating the web app.
+9. After deployment, go to configuration to add "WEBSITES_PORT" with a value of 9000.
+    
+![Screenshot 2023-12-03 at 20 52 31](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/8d26a470-34eb-439c-9e20-e49b2a86fcc0)
+11. Browse your web app from the domain! This is my web app.
+
+![Screenshot 2023-12-03 at 20 53 58](https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/53fb0286-b810-4973-a165-535700555e9a)
+
+## Public URL
+utcwebapp.azurewebsites.net
 
 ## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+1. https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?tabs=azure-portal&pivots=container-linux
+2. https://learn.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-docker-webapp?view=azure-devops&tabs=java%2Cyaml
 
 
 
