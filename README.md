@@ -21,8 +21,8 @@ docker login --username
 docker build -t username/reponame .
 docker push username/reponame
 ```
-
 Your terminal should look like this. 
+
 <img width="695" alt="Screenshot 2023-12-03 at 20 09 45" src="https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/c3375af2-8a03-4168-82bc-6bc11867d89c">
 <img width="849" alt="Screenshot 2023-12-03 at 20 09 52" src="https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/5747804b-734c-4c2d-ad34-72a906818eee">
 <img width="830" alt="Screenshot 2023-12-03 at 20 10 06" src="https://github.com/nogibjj/KatherineT.DE.Individual-Project-4/assets/143833511/bed20af9-893f-49c8-96a5-bac4879bcab5">
